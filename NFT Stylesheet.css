@@ -1,9 +1,9 @@
-@media screen and (min-width: 1200px)
 @font-face {
   font-family: Outfint;
   src: url("Outfit-VariableFont_wght.ttf") format("woff");
 }
-body {
+@media screen and (min-width: 1200px){
+  body {
   background-color: #0D1A2D;
   font-family: Outfint;
   font-size:18px ;
@@ -11,6 +11,8 @@ body {
   height: 900px;
   overflow: hidden;
 }
+}
+
 .nft {
   align-content: center;
   text-align: center;
